@@ -1,10 +1,32 @@
-Main purpose of this code is to decode Saesar-cipher in CTF.
-# Caesar Cipher Decoder
+# Sorting Formatter Tool
 
-This program decodes Caesar cipher encrypted text.
+A simple Java-based sorting utility built while solving CTF and programming practice problems.
 
-The user inputs:
-- encrypted text
-- shift amount
+This program:
+- accepts user-defined numeric input
+- sorts values in ascending or descending order
+- supports customizable output formatting
+  - comma-separated
+  - space-separated
+  - pipe-separated
 
-The program then restores the original sentence.
+## Purpose
+
+This project was created as part of my introductory CTF and algorithm/problem-solving practice.
+
+Through this project, I practiced:
+- Java fundamentals
+- input parsing
+- array manipulation
+- sorting logic
+- output formatting
+- modular method design
+
+## Example
+
+Input:
+
+```text
+15 1 93 52 66
+Descending
+Comma
